@@ -2,10 +2,9 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion COMPILE_SDK_VERSION as int
-    buildToolsVersion BUILD_TOOLS_VERSION as String
 
     defaultConfig {
-        minSdkVersion 9
+        minSdkVersion 14
         versionName VERSION_NAME as String
     }
 }
@@ -34,8 +33,7 @@ checkstyle {
 
 dependencies {
     testImplementation "junit:junit:4.12"
-    //noinspection GradleDynamicVersion
-    testImplementation "org.mockito:mockito-core:2.+"
+    testImplementation "org.mockito:mockito-core:2.28.2"
     testImplementation "org.robolectric:robolectric:3.3.2"
 }
 

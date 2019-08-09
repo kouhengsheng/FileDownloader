@@ -269,6 +269,7 @@ _2017-06-18_
 
 _2017-06-12_
 
+
 #### Fix
 
 - Fix(max-network-thread-count): fix the `download.max-network-thread-count` not work and there are no restrictions on the number of tasks downloaded at the same time since v1.5.0 when tasks runs on the multi-connection Closes #607
